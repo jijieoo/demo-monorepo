@@ -4,4 +4,5 @@ module.exports = vue3DevTemplate;
 
 function vue3DevTemplate() {
     // TODO
+    let a = 1;
 }

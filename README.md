@@ -18,12 +18,10 @@ change package.json
 
 ```json
 {
-    // others..
     "private": true,
     "workspaces": [
         "packages/*"
     ],
-    // others...
 }
 ```
 
@@ -79,6 +77,21 @@ add husky commit-msg
 ```shell
 yarn husky add .husky/commit-msg "yarn commitlint --edit $1"
 ```
+
+// TODO: lint
+
+### init lint(typescript)
+
+```shell
+yarn add -D -W eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
+
+.eslintrc.js
+
+```js
+
+```
+
 
 ### test
 
