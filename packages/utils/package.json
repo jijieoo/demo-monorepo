@@ -1,11 +1,11 @@
 {
-  "name": "utils",
+  "name": "@demo-monorepo/utils",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "jijieoo <jijieoo@outlook.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/utils.js",
+  "main": "src/index.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

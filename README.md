@@ -88,10 +88,7 @@ yarn add -D -W eslint typescript @typescript-eslint/parser @typescript-eslint/es
 
 .eslintrc.js
 
-```js
-
-```
-
+// TODO: tsconfig.json
 
 ### test
 
